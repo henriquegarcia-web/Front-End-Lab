@@ -1,7 +1,9 @@
 ### Front-End Lab Beta
 
 > **Versão:** Beta </br>
-> **Desenvolvedor:** Henrique P. Garcia </br>
+> **Desenvolvedor:** Henrique P. Garcia </br></br>
+> **Data de Início:** 20 de maio de 2022 </br>
+> **Previsão de Término:** 01 de junho de 2022 </br>
 
 </br>
 
@@ -16,3 +18,9 @@ Dentro da plataforma é possível acessar documentos da database gratuíta. Cada
 O principal objetivo do Front-End Lab é a criação de uma comunidade de desenvolvedores e à partir das funcionalidades entregues pela aplicação ajudar diversos programadores front-end no Brasil e no mundo.
 
 Entregar informações de extrema qualidade aos usuários, as quais devem levar ao usuário lembrá-las toda vez que necessitar de ajuda com determinado problema ou demanda.
+
+#### Em breve novidades
+
+Acompanhe meu [Perfil no Linkedin](https://www.linkedin.com/in/henrique-p-garcia/)
+
+</br>
