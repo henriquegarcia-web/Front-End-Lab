@@ -4,6 +4,7 @@ import Dropdown from './Components/Story/InputDropdown';
 import * as I from './Components/Story/Inputs'
 import Tags from './Components/Story/InputTags';
 import Logo from './Components/Story/Logo'
+import RichText from './Components/Story/RichText';
 import * as T from './Components/Story/Text'
 import { colors } from './Utils/colors';
 
@@ -62,6 +63,10 @@ function App() {
       <Dropdown />
 
       <Tags />
+
+      <RichText 
+        // height='160'
+      />
     
     </div>
   );

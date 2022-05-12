@@ -15,10 +15,13 @@ const GlobalStyle = createGlobalStyle`
     flex-shrink: 0;
   }
 
+  body {
+    background-color: ${colors.black};
+  }
+
   .teste {
     background-color: ${colors.black};
     width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -33,22 +36,22 @@ const GlobalStyle = createGlobalStyle`
   // ------ SCROLL BAR
 
   /* width */
-  /* ::-webkit-scrollbar {
-    width: 5px;
+  ::-webkit-scrollbar {
+    width: 4px;
     z-index: 1000;
-    background: rgba(1, 194, 154, 0.1);
-  } */
+    background-color: rgba(255, 255, 255, 0.08);
+  }
 
   /* Track */
-  /* ::-webkit-scrollbar-track {
+  ::-webkit-scrollbar-track {
     border-radius: 6px;
-  } */
+  }
 
   /* Handle */
-  /* ::-webkit-scrollbar-thumb {
-    background: ${colors.input_hover};
+  ::-webkit-scrollbar-thumb {
+    background: ${colors.green};
     border-radius: 10px;
-  } */
+  }
 
   /* .toolbarClassName {
     border: none;

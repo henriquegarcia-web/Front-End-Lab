@@ -9,6 +9,7 @@ export const Tags = styled.div`
   height: fit-content;
   padding: 12px;
   border-radius: 6px;
+  transition: .1s;
   
   background: transparent;
   border: 1px solid ${colors.input};
