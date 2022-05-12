@@ -1,4 +1,5 @@
 import React from 'react';
+import Dropdown from './Components/Story/InputDropdown';
 
 import * as I from './Components/Story/Inputs'
 import Logo from './Components/Story/Logo'
@@ -54,6 +55,10 @@ function App() {
       <T.Legend
         // bold={true}
       >Isso daqui é uma Legenda</T.Legend>
+
+      <br/>
+
+      <Dropdown />
     
     </div>
   );
