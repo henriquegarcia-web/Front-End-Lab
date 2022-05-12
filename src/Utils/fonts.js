@@ -14,6 +14,7 @@ const fonts = {
   // paragraph: 'normal 300 15px Lexend Deca, sans-serif',
 
   input: 'normal 300 15px Lexend Deca, sans-serif',
+  input_text: 'normal 300 14px Lexend Deca, sans-serif',
 };
 
 export default fonts;

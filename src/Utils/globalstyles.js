@@ -1,5 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components";
-import { ThemeFrontEndCode } from "./colors";
+import { colors } from "./colors";
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -13,6 +13,21 @@ const GlobalStyle = createGlobalStyle`
     text-decoration: none;
     list-style: none;
     flex-shrink: 0;
+  }
+
+  .teste {
+    background-color: ${colors.black};
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 60px;
+
+    input, textarea {
+      margin-bottom: 20px;
+    }
   }
 
   // ------ SCROLL BAR
@@ -31,7 +46,7 @@ const GlobalStyle = createGlobalStyle`
 
   /* Handle */
   /* ::-webkit-scrollbar-thumb {
-    background: ${ThemeFrontEndCode.input_hover};
+    background: ${colors.input_hover};
     border-radius: 10px;
   } */
 
@@ -39,14 +54,14 @@ const GlobalStyle = createGlobalStyle`
     border: none;
     padding-bottom: 5px;
 
-    background: ${ThemeFrontEndCode.purple_200};
-    border-bottom: 2px solid ${ThemeFrontEndCode.input_hover};
+    background: ${colors.purple_200};
+    border-bottom: 2px solid ${colors.input_hover};
   }
   .wrapperClassName {
     border-radius: 6px;
 
     background: transparent;
-    border: 2px solid ${ThemeFrontEndCode.input_hover};
+    border: 2px solid ${colors.input_hover};
   }
   .editorClassName {
     padding: 0 15px;
@@ -73,7 +88,7 @@ export default GlobalStyle
 //   padding: 25px;
 //   border-radius: 6px;
 
-//   border: 1px solid ${ThemeFrontEndCode.white_100};
+//   border: 1px solid ${colors.white_100};
 // `
 
 // export const ViewHeader = styled.div`
@@ -85,7 +100,7 @@ export default GlobalStyle
 //   padding: 0 25px;
 //   border-radius: 6px;
 
-//   border: 1px solid ${ThemeFrontEndCode.white_200};
+//   border: 1px solid ${colors.white_200};
 
 //   input {
 //     margin-right: 25px;
