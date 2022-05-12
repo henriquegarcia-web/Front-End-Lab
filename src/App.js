@@ -1,6 +1,9 @@
 import React from 'react';
 
 import * as I from './Components/Story/Inputs'
+import Logo from './Components/Story/Logo'
+import * as T from './Components/Story/Text'
+import { colors } from './Utils/colors';
 
 function App() {
   return (
@@ -30,6 +33,27 @@ function App() {
         placeholder='Input de Senha'
         // width='auto'
       />
+
+      <Logo
+        size='30'
+        color={colors.green}
+      >Front-End Lab</Logo>
+
+      <T.Title
+        // bold={true}
+      >Isso daqui é um Título</T.Title>
+
+      <T.Subtitle
+        // bold={true}
+      >Isso daqui é um Subtitulo</T.Subtitle>
+
+      <T.Paragraph
+        // bold={true}
+      >Isso daqui é um Paragrafo</T.Paragraph>
+
+      <T.Legend
+        // bold={true}
+      >Isso daqui é uma Legenda</T.Legend>
     
     </div>
   );
