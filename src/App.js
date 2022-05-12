@@ -2,6 +2,7 @@ import React from 'react';
 import Dropdown from './Components/Story/InputDropdown';
 
 import * as I from './Components/Story/Inputs'
+import Tags from './Components/Story/InputTags';
 import Logo from './Components/Story/Logo'
 import * as T from './Components/Story/Text'
 import { colors } from './Utils/colors';
@@ -59,6 +60,8 @@ function App() {
       <br/>
 
       <Dropdown />
+
+      <Tags />
     
     </div>
   );
