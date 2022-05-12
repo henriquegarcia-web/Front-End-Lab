@@ -23,8 +23,6 @@ export const Dropdown = styled.div`
   &:hover {
     border: 1px solid ${props => props.active ? colors.input_active : colors.input_hover};
   }
-
-  margin-bottom: 20px;
 `
 
 export const DropdownMain = styled.div`

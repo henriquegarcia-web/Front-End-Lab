@@ -3,8 +3,6 @@ import { colors } from "../../../Utils/colors";
 import fonts from "../../../Utils/fonts";
 
 export const Tags = styled.div`
-  margin-bottom: 20px;
-
   display: flex;
   height: fit-content;
   padding: 12px;

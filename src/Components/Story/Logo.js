@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { colors } from "../../Utils/colors";
-import fonts from "../../Utils/fonts";
+// import { colors } from "../../Utils/colors";
+// import fonts from "../../Utils/fonts";
 
 const Logo = styled.h1`
   font-family: 'Tourney', cursive;

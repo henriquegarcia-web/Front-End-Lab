@@ -19,20 +19,6 @@ const GlobalStyle = createGlobalStyle`
     background-color: ${colors.black};
   }
 
-  .teste {
-    background-color: ${colors.black};
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
-    padding: 60px;
-
-    input, textarea {
-      margin-bottom: 20px;
-    }
-  }
-
   // ------ SCROLL BAR
 
   /* width */
@@ -52,27 +38,6 @@ const GlobalStyle = createGlobalStyle`
     background: ${colors.green};
     border-radius: 10px;
   }
-
-  /* .toolbarClassName {
-    border: none;
-    padding-bottom: 5px;
-
-    background: ${colors.purple_200};
-    border-bottom: 2px solid ${colors.input_hover};
-  }
-  .wrapperClassName {
-    border-radius: 6px;
-
-    background: transparent;
-    border: 2px solid ${colors.input_hover};
-  }
-  .editorClassName {
-    padding: 0 15px;
-    height: 800px;
-    overflow: hidden;
-
-    color: rgba(255, 255, 255, 1);
-  } */
 `
 
 export default GlobalStyle
